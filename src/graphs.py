@@ -3,7 +3,7 @@ import os
 
 # Configuration
 CONFIG = {
-    "output_dir": "./img",  # Directory to save diagrams
+    "output_dir": "/app/img",  # Directory to save diagrams
     "centralized_diagram_name": "Centralized_Repository_Structure",
     "decoupled_diagram_name": "Decoupled_Repository_Structure",
     "format": "png",  # Output format (e.g., png, svg)

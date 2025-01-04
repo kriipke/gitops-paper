@@ -16,7 +16,8 @@ ENV PYTHONUNBUFFERED=1
 
 WORKDIR /app
 
-RUN apt update -y && apt install -y graphviz
+RUN apt update -y && apt install -y graphviz python3-pydot
+
 
 # Download dependencies as a separate step to take advantage of Docker's caching.
 # Leverage a cache mount to /root/.cache/pip to speed up subsequent builds.
