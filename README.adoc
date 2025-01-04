@@ -1,0 +1,5 @@
+= GitOps Paper 
+
+== Generate Graphs 
+
+	docker run --rm -it -v $(pwd)/app graphviz-custom:latest python ./graph.py
