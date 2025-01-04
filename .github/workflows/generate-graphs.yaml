@@ -30,7 +30,8 @@ jobs:
     # Step 4: Render the diagram
     - name: Render diagram
       run: |
-        mkdir -p img
+        pwd
+        find
         python src/graphs.py
 
     # Step 5: Commit changes to the repository
