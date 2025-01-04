@@ -30,9 +30,7 @@ jobs:
     # Step 4: Render the diagram
     - name: Render diagram
       run: |
-        pwd
-        find
-        python src/graphs.py
+        python /app/src/graphs.py
 
     # Step 5: Commit changes to the repository
     - name: Commit and push generated diagrams
